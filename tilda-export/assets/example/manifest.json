@@ -1,0 +1,8 @@
+{
+  "version": 1,
+  "blocks": [
+    {"type": "html", "file": "tilda-static-blocks/01-hero.html", "root": "demo-hero"},
+    {"type": "html", "file": "tilda-static-blocks/02-details.html", "root": "demo-details"},
+    {"type": "popup", "file": "tilda-popup/contact.html", "root": "demo-contact", "hook": "#popup:contact"}
+  ]
+}

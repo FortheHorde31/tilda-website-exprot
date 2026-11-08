@@ -1,0 +1,13 @@
+<style>
+.demo-details, .demo-details * { box-sizing: border-box; }
+.demo-details { padding: 64px max(24px, calc((100vw - 1120px) / 2)); background: #fff; color: #14243f; font-family: system-ui, sans-serif; }
+.demo-details h2 { font-size: 32px; margin: 0 0 24px; }
+.demo-details details { padding: 20px 0; border-bottom: 1px solid #dce1eb; }
+.demo-details summary { cursor: pointer; font-size: 20px; }
+.demo-details p { max-width: 720px; line-height: 1.6; }
+</style>
+<section class="demo-details" id="demo-about" aria-labelledby="demo-about-title">
+  <h2 id="demo-about-title">Два независимых раздела</h2>
+  <details><summary>Что находится в каждом файле?</summary><p>HTML-фрагмент и стили с уникальным корнем. Скрипт можно добавить, когда он нужен для функции страницы.</p></details>
+  <details><summary>Это настоящая Тильда?</summary><p>Локальное превью показывает порядок и базовый интерактив. Реальные обёртки и работу кода нужно проверить после разрешённой публикации.</p></details>
+</section>

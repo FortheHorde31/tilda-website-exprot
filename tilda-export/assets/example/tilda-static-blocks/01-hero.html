@@ -1,0 +1,14 @@
+<style>
+.demo-hero, .demo-hero * { box-sizing: border-box; }
+.demo-hero { padding: 96px max(24px, calc((100vw - 1120px) / 2)); background: #eef4ff; color: #14243f; font-family: system-ui, sans-serif; }
+.demo-hero h1 { font-size: clamp(36px, 5vw, 64px); line-height: 1.05; margin: 0 0 24px; }
+.demo-hero p { font-size: 20px; max-width: 640px; line-height: 1.5; }
+.demo-hero a { display: inline-block; margin: 8px 16px 0 0; color: #173d98; }
+@media (max-width: 600px) { .demo-hero { padding: 64px 24px; } }
+</style>
+<section class="demo-hero" aria-labelledby="demo-title">
+  <h1 id="demo-title">Готовый HTML — в Тильду</h1>
+  <p>Демонстрационный комплект: два раздела и нативный попап.</p>
+  <a href="#popup:contact">Открыть попап</a>
+  <a href="#demo-about">Как это устроено</a>
+</section>

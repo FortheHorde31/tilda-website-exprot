@@ -1,0 +1,11 @@
+interface:
+  display_name: "Tilda Export + MCP"
+  short_description: "Перенос HTML в Tilda и публикация через MCP"
+  default_prompt: "Используй $tilda-export: подготовь готовый HTML для Тильды, проверь блоки и загрузи черновик через MCP."
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "tilda"
+      description: "Официальный Tilda MCP для загрузки блоков и публикации"
+      transport: "streamable_http"
+      url: "https://tilda.ru/api/mcp/"

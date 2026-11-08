@@ -1,0 +1,12 @@
+# Local secrets and generated files
+.env
+.env.*
+!.env.example
+__pycache__/
+*.py[cod]
+.DS_Store
+.venv/
+node_modules/
+# Generated example preview and audit output
+/tilda-export/assets/example/preview.html
+/tilda-export/assets/example/checks.json
